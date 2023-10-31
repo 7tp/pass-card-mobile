@@ -6,6 +6,7 @@
 
   --vt-c-black: #000;
   --vt-card-back-bg: #252529;
+  --vt-c-grey: #9B9DA8;
 
   --vt-c-red: #FF0014;
 }
@@ -62,6 +63,7 @@ button {
   padding: 0;
   background: transparent;
   color: inherit;
+  font-family: inherit;
 }
 
 ul {

@@ -168,6 +168,7 @@ const addresses = computed(() => showAllAddress.value
 
     .card__qr {
       margin: auto;
+      color: var(--vt-c-grey);
     }
   }
 
