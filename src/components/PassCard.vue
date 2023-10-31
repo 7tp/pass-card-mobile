@@ -58,7 +58,8 @@
 </template>
 
 <script setup lang="ts">
-import {computed, PropType, ref} from "vue";
+import type {PropType} from "vue";
+import {computed, ref} from "vue";
 import IconInfo from "@/components/icons/IconInfo.vue";
 import IconChevronLeft from "@/components/icons/IconChevronLeft.vue";
 import IconChevronDown from "@/components/icons/IconChevronDown.vue";
@@ -95,7 +96,7 @@ const style = ref('')
 const styleFront = ref('')
 const styleBack = ref('')
 
-const rotate = (dir) => {
+const rotate = (dir: 'right' | 'left') => {
   dir === 'right' ? flipIndex.value++ : flipIndex.value--;
   style.value = `transform: rotateY(${.5 * flipIndex.value}turn)`;
   styleFront.value = `transform: rotateY(${.5 * flipIndex.value}turn)`;
