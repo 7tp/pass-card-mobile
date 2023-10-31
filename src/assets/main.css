@@ -1,0 +1,15 @@
+@import './base.css';
+
+#app {
+  width: 375px;
+  height: 812px;
+  margin: 0 auto;
+  font-weight: normal;
+  color: var(--color-text);
+  background: var(--color-background);
+  overflow-y: auto;
+}
+
+.container {
+  padding: 0 20px;
+}
