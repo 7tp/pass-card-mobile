@@ -17,7 +17,7 @@ import PassCardsList from "@/components/PassCardsList.vue";
 <style lang="scss" scoped>
 
 .main {
-  padding-top: 142px;
+  padding-top: 132px;
   padding-bottom: 48px;
   font-family: 'Aeroport', Arial, sans-serif;
 }

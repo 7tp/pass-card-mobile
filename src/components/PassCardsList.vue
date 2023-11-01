@@ -75,6 +75,7 @@ const cardImages = computed(() => import.meta.glob('@/assets/images/cards/*', {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
+  padding-top: 26px;
 }
 
 </style>

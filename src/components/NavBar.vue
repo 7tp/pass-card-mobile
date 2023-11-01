@@ -44,7 +44,6 @@ import IconProfile from "@/components/icons/IconProfile.vue";
 .title {
   font-size: 32px;
   line-height: 36px;
-  padding-bottom: 10px;
 }
 
 </style>
